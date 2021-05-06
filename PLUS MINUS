@@ -1,0 +1,25 @@
+void plusMinus(vector<int> arr) {
+    float n=arr.size();
+    int c1=0;// to count no of positive numbers
+    int c2=0;// to count no of negative numbers
+    int c3=0;// to count no of 0's
+    for (auto it= arr.begin();it != arr.end();it++)
+    {
+        if (*it>0)
+        {
+            c1++;
+        }
+        else if (*it<0)
+        {
+            c2++;
+        }
+        else
+        {
+            c3++;
+        }
+    }
+  cout<<setprecision(6)<<fixed;
+  cout<<c1/n<<endl;
+  cout<<c2/n<<endl;
+  cout<<c3/n<<endl;
+}
