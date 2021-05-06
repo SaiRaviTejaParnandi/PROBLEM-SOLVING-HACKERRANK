@@ -1,0 +1,19 @@
+void staircase(int n) {
+    int x=0;
+    while (x<=5)
+    {
+    for (int i=0;i<n;i++)
+    {
+        if(i >= (n-x-1) )
+        {
+            cout<<"#";
+        }
+        else
+        {
+            cout<<" ";
+        }
+    }
+    cout<<endl;
+    x++;
+    }
+}
