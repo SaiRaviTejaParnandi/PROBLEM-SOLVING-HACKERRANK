@@ -1,0 +1,15 @@
+/*
+ * Complete the 'aVeryBigSum' function below.
+ *
+ * The function is expected to return a LONG_INTEGER.
+ * The function accepts LONG_INTEGER_ARRAY ar as parameter.
+ */
+long int sum=0;
+long aVeryBigSum(vector<long> ar) {
+for(auto it = ar.begin(); it != ar.end(); it++ ){
+    
+    sum=sum + *it;
+    
+}
+return sum;
+}
